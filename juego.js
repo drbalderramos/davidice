@@ -26,7 +26,7 @@ class Juego{
         }
     }
     generarSecuencia(){
-        this.secuencia = new Array(ULTIMO_NIVEL).fill(0).map(n => Math.floor(Math.random() * 4))
+        this.secuencia = new Array(ULTIMO_NIVEL).fill(0).map(n => Math.floor(Math.random() * 11))
     }
     siguienteNivel(){
         this.subNivel = 0;
